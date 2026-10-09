@@ -29,7 +29,7 @@ wine-quality-mlflow/
 ├── requirements.txt
 └── README.md
 
- Resultados
+Resultados
 A tabela abaixo mostra o desempenho dos modelos no conjunto de teste (dados que os modelos nunca viram):
 
 Modelo	RMSE (teste)	MAE (teste)	R² (teste)
@@ -37,7 +37,7 @@ Ridge	0.6219	0.5040	0.4082
 RandomForest	0.5815	0.4553	0.4825
 Conclusão: O RandomForest apresentou melhor desempenho em todas as métricas, sugerindo que as relações entre as propriedades químicas e a qualidade do vinho são predominantemente não-lineares.
 
-🚀 Como rodar
+Como rodar
 Instale as dependências:
 
 bash
